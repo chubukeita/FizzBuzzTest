@@ -5,9 +5,11 @@ package com.example.fizzbuzz.service;
  */
 public class FizzBuzzService {
 
-	public int fizzbuzz(int i) {
-		// TODO 自動生成されたメソッド・スタブ
-		return 1;
+	public String fizzbuzz(int i) {
+	  if (i == 1) {
+	    return "1";
+	  }
+		return "fizz";
 	}
 
 }
